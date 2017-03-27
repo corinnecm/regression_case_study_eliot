@@ -42,3 +42,8 @@ def get_sale_mon_yr(data):
     data['sale_date'] = pd.to_datetime(data['saledate'])
     data['sale_year'] = pd.DatetimeIndex(data['sale_date']).year
     data['sale_month'] = pd.DatetimeIndex(data['sale_date']).month
+    data.drop('saledate', axis=1)
+
+get_saledate_mon_yr(df)
+
+df.head()
