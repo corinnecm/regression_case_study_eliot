@@ -37,3 +37,8 @@ get_saledate_mon_yr(df)
 clean_year_made(df)
 drop_null_auctioneer(df)
 drop_null_machine(df)
+
+def get_sale_mon_yr(data):
+    data['sale_date'] = pd.to_datetime(data['saledate'])
+    data['sale_year'] = pd.DatetimeIndex(data['sale_date']).year
+    data['sale_month'] = pd.DatetimeIndex(data['sale_date']).month
