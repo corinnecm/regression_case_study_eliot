@@ -1,0 +1,13 @@
+git checkout -b dmytro_branch
+
+git branch -vv
+git checkout master
+git checkout dmytro_branch
+
+git merge master dmytro_branch
+
+get checkout master
+
+
+remove traced of large file
+git filter-branch --index-filter "git rm --ignore-unamtched test.csv"
