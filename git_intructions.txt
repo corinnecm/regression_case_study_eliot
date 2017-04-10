@@ -1,10 +1,12 @@
-git checkout -b dmytro_branch
+MOVING BETWEEN BRANCHES & MERGING
+
+git checkout -b branch_name
 
 git branch -vv
 git checkout master
-git checkout dmytro_branch
+git checkout branch_name
 
-git merge master dmytro_branch
+git merge master branch_name
 
 get checkout master
 
