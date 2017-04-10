@@ -15,5 +15,8 @@ It may not always be obvious who is working on each task in a project unless you
 #### 3) Start predictions much earlier than you think is necessary
 My group took such a long time cleaning our data that by the time we were ready to build, test, and predict with our model we had a mere 2 hours on the clock! This obviously lead to sub-optimal models and predictions and no time to fix them. 
 
+#### 4) Groupwork on git can be complicated the first time, be patient
+Not only was the project my first experience with a case study, but it was also my first with groupwork on git. Up until this point I though I had a good handle on the ins and out of git, but when it can to branching, merging and rebasing, I was completely lost! While this was initially frustrating and time consuming to figure out, I used this as an opportunity to get my feet wet in a very important skill.
+
 ## Finally...
 Overall, I would call this case study as success, even though it felt like a failure at the time. Based on what my partners and I learned from this project, my second case study (predicting the churn rate from a ride-sharing company) went about a thousand times smoother. 
